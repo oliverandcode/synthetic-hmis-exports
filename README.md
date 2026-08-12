@@ -46,13 +46,25 @@ to explicitly signal that the records here do not represent real people.
 - Minimal synthetic export batch phase 1: *Foundational Metadata*
     - **NEW:** Export.csv (ExportID needed for ALL other CSVs)
 
+### V1.0.1: Expand Minimal Dataset
+- Documentation of fictional profiles
+- Canonical registry of fictional data
+- Minimal synthetic export batch phase 2: *Administration*
+    - Export.csv
+    - **NEW:** Organization.csv
+    - **NEW:** User.csv
+    - Upstream requirement for both:
+        - ONLY ExportID from Export.csv
+
 ## Project Structure
 
 synthetic-hmis-exports/
 ├── mock_datasets/
 │   └── HUD-2026/
 │       └──minimal/
-│           └── Export.csv
+│           ├── Export.csv
+│           ├── Organization.csv
+│           └── User.csv
 ├── canonical_registry/
 │       └──minimal/
 │           ├── canonical_entities.csv
