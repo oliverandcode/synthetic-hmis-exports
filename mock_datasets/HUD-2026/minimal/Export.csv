@@ -1,0 +1,2 @@
+ExportID,SourceType,SourceID,SourceName,SourceContactFirst,SourceContactLast,SourceContactPhone,SourceContactExtension,SourceContactEmail,ExportDate,ExportStartDate,ExportEndDate,SoftwareName,SoftwareVersion,CSVVersion,ExportPeriodType,ExportDirective,HashStatus,ImplementationID
+EXP20260715A,1,1001,City of Angels Supportive Accomodations,Charlie,Chaplin,(213) 555-0100,202,charlie.chaplin@casa.example,2026-07-15 09:00:00,2026-01-01,2026-06-30,Synthetic HMIS Generator,1.0.0,2026,1,1,0,LA-CASA-SYNTH-001

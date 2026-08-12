@@ -1,0 +1,18 @@
+EntityType,ID,Name,DocumentationLabel,Description
+Export,EXP20260715A,Synthetic HUD Export,N/A,Canonical export for version 1.0
+Organization,1001,City of Angels Supportive Accomodations,CASA,Fictional Los Angeles nonprofit
+Project,200101,Harbor House Emergency Shelter,Harbor House,Emergency Shelter
+Project,200102,Pathways Rapid Re-Housing,Pathways RRH,Rapid Re-Housing
+Project,200103,Street Connect Outreach,Street Connect,Street Outreach
+Project,200104,Summit Permanent Supportive Housing,Summit PSH,Permanent Supportive Housing
+Project,200105,Housing Stability Prevention,HIP,Homelessness Prevention
+User,1,Admin,Admin,System administrator
+User,5,InternalAPI,API,Automated system account
+User,23,Charlie Chaplin,Charlie Chaplin (CM),Case Manager
+User,41,Idris Elba,Idris Elba (IS),Intake Specialist
+User,107,Tiffany Haddish,Tiffany Haddish (PM),Program Manager
+Personal,100001,Kelly Clarkson,Kelly Clarkson (Client),Single adult
+Personal,100002,Woody Guthrie,Woody Guthrie (Client),Veteran
+Personal,100003,Anthony Kiedis,Anthony Kiedis (Client),Family head of household
+Personal,100004,Jennifer Lopez,Jennifer Lopez (Client),Youth participant
+Personal,100005,Shania Twain (Client),Shania Twain (Client),Returning participant
