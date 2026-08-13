@@ -55,6 +55,24 @@ to explicitly signal that the records here do not represent real people.
     - **NEW:** User.csv
     - Upstream requirement for both:
         - ONLY ExportID from Export.csv
+        - *NOTE:* Assume ExportID is included in upstream requirements for all
+          following CSVs included in the standard export batch
+
+### V1.0.2: Expand Minimal Dataset
+- Documentation of fictional profiles
+- Canonical registry of fictional data
+- Minimal synthetic export batch phase 3: *Projects & Clients*
+    - Export.csv
+    - Organization.csv
+    - User.csv
+    - **NEW:** Project.csv 
+        - Upstream requirements: 
+            - OrganizationID from Organization.csv
+    - **NEW:** Client.csv 
+        - *NOTE:* Enrollment.csv must contain a matching record for every row in 
+          Client.csv
+        - Upstream requirements: 
+            - UserID from User.csv
 
 ## Project Structure
 
@@ -64,7 +82,9 @@ synthetic-hmis-exports/
 │       └──minimal/
 │           ├── Export.csv
 │           ├── Organization.csv
-│           └── User.csv
+│           ├── User.csv
+│           ├── Project.csv **NEW:**
+│           └── Client.csv **NEW:**
 ├── canonical_registry/
 │       └──minimal/
 │           ├── canonical_entities.csv
