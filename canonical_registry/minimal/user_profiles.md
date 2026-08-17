@@ -32,7 +32,7 @@ Documentation Label: Charlie Chaplin (CM)
 
 UserID: 23
 
-Fictional HMIS case manager.
+Fictional HMIS case manager. (Official point of contact/intake.)
 
 ---
 

@@ -53,7 +53,7 @@ services.
 HMIS Participation Type: HMIS Participating
 
 ### Address
-None provided. (Compton, CA)
+None provided, but located in Compton, CA.
 
 SPA 6
 Geocode: 060804
