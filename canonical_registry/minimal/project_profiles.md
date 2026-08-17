@@ -15,6 +15,7 @@ HMIS Participation Type: HMIS Participating
 Harbor City, CA 90710
 
 SPA 8
+Geocode: None provided
 GeographyType: Suburban
 
 ---
@@ -35,6 +36,7 @@ HMIS Participation Type: HMIS Participating
 Los Angeles, CA 90015
 
 SPA 4
+Geocode: 062118
 GeographyType: Urban
 
 ---
@@ -54,6 +56,7 @@ HMIS Participation Type: HMIS Participating
 None provided. (Compton, CA)
 
 SPA 6
+Geocode: 060804
 GeographyType: Urban
 
 ---
@@ -74,6 +77,7 @@ HMIS Participation Type: HMIS Participating
 Pomona, CA 91766
 
 SPA 3
+Geocode: 062850
 GeographyType: Urban
 
 ---
@@ -94,6 +98,7 @@ HMIS Participation Type: HMIS Participating
 Littlerock, CA 93543
 
 SPA 1
+Geocode: None provided
 GeographyType: Rural
 
 ---
