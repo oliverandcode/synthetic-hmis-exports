@@ -1,0 +1,6 @@
+ProjectCoCID,ProjectID,CoCCode,Geocode,Address1,Address2,City,State,ZIP,GeographyType,DateCreated,DateUpdated,UserID,DateDeleted,ExportID
+"300101","200101","CA-600",,"123 Western Avenue","SPA 8","Harbor City","CA","90710",1,2026-01-01 00:00:00,2026-01-01 00:00:00,"23",,"EXP20260715A"
+"300102","200102","CA-600","062118","789 Flower Street","SPA 4","Los Angeles","CA","90015",1,2026-01-01 00:00:00,2026-01-01 00:00:00,"23",,"EXP20260715A"
+"300103","200103","CA-600","060804",,"SPA 6","Compton","CA",,1,2026-01-01 00:00:00,2026-01-01 00:00:00,"23",,"EXP20260715A"
+"300104","200104","CA-600","062850","456 Mission Boulevard","SPA 3","Pomona","CA","91766",2,2026-01-01 00:00:00,2026-01-01 00:00:00,"23",,"EXP20260715A"
+"300105","200105","CA-600",,"000 Pearlblossom Highway","SPA 1","Littlerock","CA","93543",3,2026-01-01 00:00:00,2026-01-0015 00:00:00,"23",,"EXP20260715A"

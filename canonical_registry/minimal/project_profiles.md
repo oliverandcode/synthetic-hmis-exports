@@ -4,6 +4,7 @@
 
 Documentation Label: Harbor House
 ProjectID: 200101
+ProjectCoCID: 300101
 
 ### Description
 Emergency shelter providing temporary housing and stabilization services.
@@ -16,7 +17,7 @@ Harbor City, CA 90710
 
 SPA 8
 Geocode: None provided
-GeographyType: Suburban
+GeographyType: Urban (1)
 
 ---
 
@@ -24,6 +25,7 @@ GeographyType: Suburban
 
 Documentation Label: Pathways RRH
 ProjectID: 200102
+ProjectCoCID: 300102
 
 ### Description
 Rapid Re-Housing program assisting participants in obtaining and maintaining
@@ -37,7 +39,7 @@ Los Angeles, CA 90015
 
 SPA 4
 Geocode: 062118
-GeographyType: Urban
+GeographyType: Urban (1)
 
 ---
 
@@ -45,6 +47,7 @@ GeographyType: Urban
 
 Documentation Label: Street Connect
 ProjectID: 200103
+ProjectCoCID: 300103
 
 ### Description
 Street Outreach program engaging unsheltered individuals and connecting them to
@@ -57,7 +60,7 @@ None provided, but located in Compton, CA.
 
 SPA 6
 Geocode: 060804
-GeographyType: Urban
+GeographyType: Urban (1)
 
 ---
 
@@ -65,6 +68,7 @@ GeographyType: Urban
 
 Documentation Label: Summit PSH
 ProjectID: 200104
+ProjectCoCID: 300104
 
 ### Description
 Permanent Supportive Housing program serving participants with long-term support
@@ -78,7 +82,7 @@ Pomona, CA 91766
 
 SPA 3
 Geocode: 062850
-GeographyType: Urban
+GeographyType: Suburban (2)
 
 ---
 
@@ -86,6 +90,7 @@ GeographyType: Urban
 
 Documentation Label: HIP
 ProjectID: 200105
+ProjectCoCID: 300105
 
 ### Description
 Homelessness Prevention project assisting households at imminent risk of losing
@@ -99,7 +104,7 @@ Littlerock, CA 93543
 
 SPA 1
 Geocode: None provided
-GeographyType: Rural
+GeographyType: Rural (3)
 
 ---
 
