@@ -10,6 +10,7 @@ OperatingEndDate: null (active)
 
 HMISParticipationType: 1 (HMIS Participating)
 HMISParticipationStatusStartDate: 2024-01-01
+HMISParticipationStatusEndDate: null (ongoing)
 
 ## Harbor House Emergency Shelter 
 
@@ -19,11 +20,10 @@ ProjectCoCID: 300101
 FunderID: 400101
 Funder code: 8 (HUD: ESG – Emergency Shelter)
 GrantID (fictional): ESG-2024-LA1102
+HMISParticipationID: 500101
 
 ### Description
 Emergency shelter providing temporary housing and stabilization services.
-
-HMIS Participation Type: HMIS Participating
 
 ### Address
 123 Western Avenue
@@ -43,12 +43,11 @@ ProjectCoCID: 300102
 FunderID: 400102
 Funder code: 3 (HUD: CoC – Rapid Re-Housing)
 GrantID (fictional): CA0600L9D001234
+HMISParticipationID: 50010X
 
 ### Description
 Rapid Re-Housing program assisting participants in obtaining and maintaining
 permanent housing.
-
-HMIS Participation Type: HMIS Participating
 
 ### Address
 789 Flower Street
@@ -68,12 +67,11 @@ ProjectCoCID: 300103
 FunderID: 400103
 Funder code: 11 (HUD: ESG – Street Outreach)
 GrantID (fictional): ESG-2024-LA1103
+HMISParticipationID: 50010X
 
 ### Description
 Street Outreach program engaging unsheltered individuals and connecting them to
 services.
-
-HMIS Participation Type: HMIS Participating
 
 ### Address
 None provided, but located in Compton, CA.
@@ -92,12 +90,11 @@ ProjectCoCID: 300104
 FunderID: 400104
 Funder code: 2 (HUD: CoC – Permanent Supportive Housing)
 GrantID (fictional): CA0600L9D005678
+HMISParticipationID: 50010X
 
 ### Description
 Permanent Supportive Housing program serving participants with long-term support
 needs.
-
-HMIS Participation Type: HMIS Participating
 
 ### Address
 456 Mission Boulevard
@@ -117,12 +114,11 @@ ProjectCoCID: 300105
 FunderID: 400105
 Funder code: 9 (HUD: ESG – Homelessness Prevention)
 GrantID (fictional): ESG-2024-LA1104
+HMISParticipationID: 50010X
 
 ### Description
 Homelessness Prevention project assisting households at imminent risk of losing
 housing.
-
-HMIS Participation Type: HMIS Participating
 
 ### Address
 000 Pearlblossom Highway
