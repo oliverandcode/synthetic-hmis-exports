@@ -1,6 +1,6 @@
 UserID,UserFirstName,UserLastName,UserPhone,UserExtension,UserEmail,DateCreated,DateUpdated,DateDeleted,ExportID
-"1","Admin",,,,,2026-01-01 08:00:00,2026-01-01 08:00:00,,"EXP20260715A"
-"5","InternalAPI",,,,,2026-01-01 00:00:00,2026-01-01 08:00:00,,"EXP20260715A"
-"23","Charlie","Chaplin","2135550100","201","charlie.chaplin@casa.example",2026-01-03 09:15:22,2026-01-03 09:15:22,,"EXP20260715A"
-"41","Idris","Elba","2135550100","202","idris.elba@casa.example",2026-01-03 09:20:41,2026-01-03 09:20:41,,"EXP20260715A"
-"107","Tiffany","Haddish","2135550100","203","tiffany.haddish@casa.example",2026-01-03 09:42:16,2026-01-03 09:42:16,,"EXP20260715A"
+"1","Admin",,,,,2026-01-01 09:00:00,2026-01-01 09:00:00,,"EXP20260715A"
+"5","InternalAPI",,,,,2026-01-01 09:00:00,2026-01-01 09:00:00,,"EXP20260715A"
+"23","Charlie","Chaplin","2135550100","201","charlie.chaplin@casa.example",2026-01-01 09:00:00,2026-01-01 09:00:00,,"EXP20260715A"
+"41","Idris","Elba","2135550100","202","idris.elba@casa.example",2026-01-01 09:00:00,2026-01-01 09:00:00,,"EXP20260715A"
+"107","Tiffany","Haddish","2135550100","203","tiffany.haddish@casa.example",2026-01-01 09:00:00,2026-01-01 09:00:00,,"EXP20260715A"
