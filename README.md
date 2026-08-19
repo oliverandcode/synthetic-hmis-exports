@@ -74,6 +74,23 @@ to explicitly signal that the records here do not represent real people.
         - Upstream requirements: 
             - UserID from User.csv
 
+### V1.0.3: Expand Minimal Dataset
+- Documentation of fictional profiles
+- Canonical registry of fictional data
+- Minimal synthetic export batch phase 4: *Project Downstream Data, part 1*
+    - Export.csv
+    - Organization.csv
+    - User.csv
+    - Project.csv
+    - Client.csv
+    - *NOTE:* Upstream requirements include UserID for ALL of the new CSVs. 
+      CustomClientGender.csv requires PersonalID from Client.csv. The rest all
+      require ProjectID from Project.csv.
+    - **NEW:** CustomClientGender.csv 
+    - **NEW:** ProjectCoC.csv 
+        - *NOTE:* Needed for data pipeline ingestion layer's composite 
+          county-ProjectID unique identifiers.
+
 ## Project Structure
 
 synthetic-hmis-exports/
@@ -83,8 +100,10 @@ synthetic-hmis-exports/
 │           ├── Export.csv
 │           ├── Organization.csv
 │           ├── User.csv
-│           ├── Project.csv **NEW:**
-│           └── Client.csv **NEW:**
+│           ├── Project.csv
+│           ├── Client.csv
+│           ├── CustomClientGender.csv **NEW:**
+│           ├── ProjectCoC.csv **NEW:**
 ├── canonical_registry/
 │       └──minimal/
 │           ├── canonical_entities.csv
