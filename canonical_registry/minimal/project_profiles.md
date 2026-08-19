@@ -1,5 +1,16 @@
 # Fictional HMIS Project Profiles
 
+## Global (applies to all projects)
+
+DateCreated: 2026-01-01 09:00:00
+DateUpdated: 2026-01-01 09:00:00
+
+OperatingStartDate: 2024-01-01
+OperatingEndDate: null (active)
+
+HMISParticipationType: 1 (HMIS Participating)
+HMISParticipationStatusStartDate: 2024-01-01
+
 ## Harbor House Emergency Shelter 
 
 Documentation Label: Harbor House
