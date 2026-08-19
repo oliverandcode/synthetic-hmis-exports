@@ -16,6 +16,9 @@ HMISParticipationStatusStartDate: 2024-01-01
 Documentation Label: Harbor House
 ProjectID: 200101
 ProjectCoCID: 300101
+FunderID: 400101
+Funder code: 8 (HUD: ESG – Emergency Shelter)
+GrantID (fictional): ESG-2024-LA1102
 
 ### Description
 Emergency shelter providing temporary housing and stabilization services.
@@ -37,6 +40,9 @@ GeographyType: Urban (1)
 Documentation Label: Pathways RRH
 ProjectID: 200102
 ProjectCoCID: 300102
+FunderID: 400102
+Funder code: 3 (HUD: CoC – Rapid Re-Housing)
+GrantID (fictional): CA0600L9D001234
 
 ### Description
 Rapid Re-Housing program assisting participants in obtaining and maintaining
@@ -59,6 +65,9 @@ GeographyType: Urban (1)
 Documentation Label: Street Connect
 ProjectID: 200103
 ProjectCoCID: 300103
+FunderID: 400103
+Funder code: 11 (HUD: ESG – Street Outreach)
+GrantID (fictional): ESG-2024-LA1103
 
 ### Description
 Street Outreach program engaging unsheltered individuals and connecting them to
@@ -80,6 +89,9 @@ GeographyType: Urban (1)
 Documentation Label: Summit PSH
 ProjectID: 200104
 ProjectCoCID: 300104
+FunderID: 400104
+Funder code: 2 (HUD: CoC – Permanent Supportive Housing)
+GrantID (fictional): CA0600L9D005678
 
 ### Description
 Permanent Supportive Housing program serving participants with long-term support
@@ -102,6 +114,9 @@ GeographyType: Suburban (2)
 Documentation Label: HIP
 ProjectID: 200105
 ProjectCoCID: 300105
+FunderID: 400105
+Funder code: 9 (HUD: ESG – Homelessness Prevention)
+GrantID (fictional): ESG-2024-LA1104
 
 ### Description
 Homelessness Prevention project assisting households at imminent risk of losing
