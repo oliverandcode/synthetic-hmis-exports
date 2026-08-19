@@ -1,6 +1,6 @@
 PersonalID,FirstName,MiddleName,LastName,NameSuffix,NameDataQuality,SSN,SSNDataQuality,DOB,DOBDataQuality,Sex,AmIndAKNative,Asian,BlackAfAmerican,HispanicLatinao,MidEastNAfrican,NativeHIPacific,White,RaceNone,AdditionalRaceEthnicity,VeteranStatus,YearEnteredService,YearSeparated,WorldWarII,KoreanWar,VietnamWar,DesertStorm,AfghanistanOEF,IraqOIF,IraqOND,OtherTheater,MilitaryBranch,DischargeStatus,DateCreated,DateUpdated,UserID,DateDeleted,ExportID
-"100001","Kelly","Brianne","Clarkson",,1,"900010001",1,1982-04-24,1,0,0,0,0,0,0,0,1,,,0,,,,,,,,,,,,,2026-01-01 09:00:00,,2026-01-01 09:00:00,,"23",,"EXP20260715A"
-"100002","Woody","Wilson","Guthrie",,1,"000000000",99,1912-07-14,1,1,0,0,0,0,0,0,1,,,1,1943,1945,1,0,0,0,0,0,0,0,1,1,2026-01-01 09:00:00,,2026-01-01 09:00:00,,"41",,"EXP20260715A"
-"100003","Anthony","John","Kiedis",,1,"900010003",1,1962-11-01,1,1,1,0,0,0,0,0,1,,,0,,,,,,,,,,,,,2026-01-01 09:00:00,,2026-01-01 09:00:00,,"107",,"EXP20260715A"
-"100004","Jennifer","Lynn","Lopez",,1,"900010004",1,2010-07-24,1,0,0,0,0,1,0,0,0,,"Puerto Rican",0,,,,,,,,,,,,,2026-01-01 09:00:00,,2026-01-01 09:00:00,,"23",,"EXP20260715A"
-"100005","Shania","Regina","Twain",,1,"900010005",1,1965-08-28,1,0,0,0,0,0,0,0,0,9,,0,,,,,,,,,,,,,2026-01-01 09:00:00,,2026-01-01 09:00:00,,"41",,"EXP20260715A"
+"100001","Kelly","Brianne","Clarkson",,1,"900010001",1,1982-04-24,1,0,0,0,0,0,0,0,1,,,0,,,,,,,,,,,,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"100002","Woody","Wilson","Guthrie",,1,"000000000",99,1912-07-14,1,1,0,0,0,0,0,0,1,,,1,1943,1945,1,0,0,0,0,0,0,0,1,1,2026-01-01 09:00:00,2026-01-01 09:00:00,"41",,"EXP20260715A"
+"100003","Anthony","John","Kiedis",,1,"900010003",1,1962-11-01,1,1,1,0,0,0,0,0,1,,,0,,,,,,,,,,,,,2026-01-01 09:00:00,2026-01-01 09:00:00,"107",,"EXP20260715A"
+"100004","Jennifer","Lynn","Lopez",,1,"900010004",1,2010-07-24,1,0,0,0,0,1,0,0,0,,"Puerto Rican",0,,,,,,,,,,,,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"100005","Shania","Regina","Twain",,1,"900010005",1,1965-08-28,1,0,0,0,0,0,0,0,0,9,,0,,,,,,,,,,,,,2026-01-01 09:00:00,2026-01-01 09:00:00,"41",,"EXP20260715A"
