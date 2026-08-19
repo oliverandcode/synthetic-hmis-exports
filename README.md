@@ -90,6 +90,8 @@ to explicitly signal that the records here do not represent real people.
     - **NEW:** ProjectCoC.csv 
         - *NOTE:* Needed for data pipeline ingestion layer's composite 
           county-ProjectID unique identifiers.
+    - **NEW:** Funder.csv
+    - **NEW:** HMISParticipation.csv
 
 ## Project Structure
 
@@ -104,6 +106,8 @@ synthetic-hmis-exports/
 │           ├── Client.csv
 │           ├── CustomClientGender.csv **NEW:**
 │           ├── ProjectCoC.csv **NEW:**
+│           ├── Funder.csv **NEW:**
+│           ├── HMISParticipation.csv **NEW:**
 ├── canonical_registry/
 │       └──minimal/
 │           ├── canonical_entities.csv
