@@ -1,0 +1,6 @@
+CEParticipationID,ProjectID,AccessPoint,PreventionAssessment,CrisisAssessment,HousingAssessment,DirectServices,ReceivesReferrals,CEParticipationStatusStartDate,CEParticipationStatusEndDate,DateCreated,DateUpdated,UserID,DateDeleted,ExportID
+"600101","200101",1,0,1,1,1,1,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"600102","200102",0,,,,,1,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"600103","200103",1,0,1,1,1,0,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"600104","200104",0,,,,,1,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"600105","200105",1,1,0,0,1,1,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
