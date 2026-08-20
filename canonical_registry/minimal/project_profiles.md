@@ -12,6 +12,8 @@ HMISParticipationType: 1 (HMIS Participating)
 HMISParticipationStatusStartDate: 2024-01-01
 HMISParticipationStatusEndDate: null (ongoing)
 
+CEParticipationStatusStartDate: 2024-01-01
+
 ## Harbor House Emergency Shelter 
 
 Documentation Label: Harbor House
@@ -21,6 +23,12 @@ FunderID: 400101
 Funder code: 8 (HUD: ESG – Emergency Shelter)
 GrantID (fictional): ESG-2024-LA1102
 HMISParticipationID: 500101
+AccessPoint: 1 (yes: entry point for CES)
+    - PreventionAssessment: 0 (no)
+    - CrisisAssessment: 1 (yes)
+    - HousingAssessment: 1 (yes)
+    - DirectServices: 1 (yes)
+ReceivesReferrals: 1 (yes: CES refers clients here)
 
 ### Description
 Emergency shelter providing temporary housing and stabilization services.
@@ -43,7 +51,9 @@ ProjectCoCID: 300102
 FunderID: 400102
 Funder code: 3 (HUD: CoC – Rapid Re-Housing)
 GrantID (fictional): CA0600L9D001234
-HMISParticipationID: 50010X
+HMISParticipationID: 500102
+AccessPoint: 0 (no: not a CES entry point)
+ReceivesReferrals: 1 (yes: CES refers clients here)
 
 ### Description
 Rapid Re-Housing program assisting participants in obtaining and maintaining
@@ -67,7 +77,13 @@ ProjectCoCID: 300103
 FunderID: 400103
 Funder code: 11 (HUD: ESG – Street Outreach)
 GrantID (fictional): ESG-2024-LA1103
-HMISParticipationID: 50010X
+HMISParticipationID: 500103
+AccessPoint: 1 (yes: entry point for CES)
+    - PreventionAssessment: 0 (no)
+    - CrisisAssessment: 1 (yes)
+    - HousingAssessment: 1 (yes)
+    - DirectServices: 1 (yes)
+ReceivesReferrals: 0 (no: CES does not refer clients here)
 
 ### Description
 Street Outreach program engaging unsheltered individuals and connecting them to
@@ -90,7 +106,9 @@ ProjectCoCID: 300104
 FunderID: 400104
 Funder code: 2 (HUD: CoC – Permanent Supportive Housing)
 GrantID (fictional): CA0600L9D005678
-HMISParticipationID: 50010X
+HMISParticipationID: 500104
+AccessPoint: 0 (no: not a CES entry point)
+ReceivesReferrals: 1 (yes: CES refers clients here)
 
 ### Description
 Permanent Supportive Housing program serving participants with long-term support
@@ -114,7 +132,13 @@ ProjectCoCID: 300105
 FunderID: 400105
 Funder code: 9 (HUD: ESG – Homelessness Prevention)
 GrantID (fictional): ESG-2024-LA1104
-HMISParticipationID: 50010X
+HMISParticipationID: 500105
+AccessPoint: 1 (yes: entry point for CES)
+    - PreventionAssessment: 1 (yes)
+    - CrisisAssessment: 0 (no)
+    - HousingAssessment: 0 (no)
+    - DirectServices: 1 (yes)
+ReceivesReferrals: 1 (yes: CES refers clients here)
 
 ### Description
 Homelessness Prevention project assisting households at imminent risk of losing
