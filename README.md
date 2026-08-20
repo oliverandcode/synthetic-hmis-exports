@@ -86,12 +86,20 @@ to explicitly signal that the records here do not represent real people.
     - *NOTE:* Upstream requirements include UserID for ALL of the new CSVs. 
       CustomClientGender.csv requires PersonalID from Client.csv. The rest all
       require ProjectID from Project.csv.
+        - Affiliation.csv requires ProjectID for both ProjectID & ResProjectID 
+          columns. Also, some vendors make AffiliationID a composite of 
+          ProjectID & ResProjectID. 
     - **NEW:** CustomClientGender.csv 
     - **NEW:** ProjectCoC.csv 
         - *NOTE:* Needed for data pipeline ingestion layer's composite 
           county-ProjectID unique identifiers.
     - **NEW:** Funder.csv
     - **NEW:** HMISParticipation.csv
+    - **NEW:** CEParticipation.csv
+    - **NEW:** Affiliation.csv
+        - NOTE: Only produces real data under specific conditions. Our current 
+          fictional export batch does not meet those conditions, so this CSV 
+          is empty (except for the headers row).
 
 ## Project Structure
 
@@ -108,6 +116,8 @@ synthetic-hmis-exports/
 │           ├── ProjectCoC.csv **NEW:**
 │           ├── Funder.csv **NEW:**
 │           ├── HMISParticipation.csv **NEW:**
+│           ├── CEParticipation.csv **NEW:**
+│           └── Affiliation.csv **NEW:**
 ├── canonical_registry/
 │       └──minimal/
 │           ├── canonical_entities.csv
