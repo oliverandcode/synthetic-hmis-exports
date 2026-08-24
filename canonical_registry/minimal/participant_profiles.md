@@ -1,5 +1,13 @@
 # Fictional HMIS Participant Profiles
 
+## Global
+Leaving the following fields null for this minimal data round:
+- LengthOfStay
+- PreviousStreetESSH
+- TimesHomelessPastThreeYears
+- MonthsHomelessPastThreeYears
+- DateToStreetESSH
+
 ## Kelly Clarkson 
 
 Documentation Label: Kelly Clarkson (Client)
@@ -25,8 +33,8 @@ eviction. Completes an initial assessment and later exits to permanent housing.
 ### Expected related records
 PersonalID: 100001
 ProjectID: 200101 (Harbor House Emergency Shelter)
+EnrollmentID: 700101
 HouseholdID: 800101
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -62,8 +70,8 @@ disabling condition and remains enrolled throughout the export period.
 ### Expected related records
 PersonalID: 100002
 ProjectID: 200104 (Summit Permanent Supportive Housing)
+EnrollmentID: 700102
 HouseholdID: 800102
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -95,8 +103,8 @@ with multiple members (4 children) and several income-related records.
 ### Expected related records
 PersonalID: 100003
 ProjectID: 200102 (Pathways Rapid Re-Housing)
+EnrollmentID: 700103
 HouseholdID: 800103
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -128,8 +136,8 @@ records are present without residential placement during this export.
 ### Expected related records
 PersonalID: 100004
 ProjectID: 200103 (Street Connect Outreach)
+EnrollmentID: 700104
 HouseholdID: 800104
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -161,8 +169,8 @@ housing before literal homelessness occurs. Temporarily living with family.
 ### Expected related records
 PersonalID: 100005
 ProjectID: 200105 (Housing Instability Prevention)
+EnrollmentID: 700105
 HouseholdID: 800105
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -193,10 +201,10 @@ MoveInDate: TBD once their father (Anthony Kiedis PersonalID 100003) is housed
 Child and dependent of Anthony Kiedis. 
 
 ### Expected related records
-PersonalID: 100001
+PersonalID: 100006
 ProjectID: 200102 (Pathways Rapid Re-Housing)
+EnrollmentID: 700106
 HouseholdID: 800103
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -225,10 +233,10 @@ MoveInDate: TBD once their father (Anthony Kiedis PersonalID 100003) is housed
 Child and dependent of Anthony Kiedis. 
 
 ### Expected related records
-PersonalID: 100001
+PersonalID: 100007
 ProjectID: 200102 (Pathways Rapid Re-Housing)
+EnrollmentID: 700107
 HouseholdID: 800103
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -257,10 +265,10 @@ MoveInDate: TBD once their father (Anthony Kiedis PersonalID 100003) is housed
 Child and dependent of Anthony Kiedis. 
 
 ### Expected related records
-PersonalID: 100001
+PersonalID: 100008
 ProjectID: 200102 (Pathways Rapid Re-Housing)
+EnrollmentID: 700108
 HouseholdID: 800103
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
@@ -289,10 +297,10 @@ MoveInDate: TBD once their father (Anthony Kiedis PersonalID 100003) is housed
 Child and dependent of Anthony Kiedis. 
 
 ### Expected related records
-PersonalID: 100001
+PersonalID: 100009
 ProjectID: 200102 (Pathways Rapid Re-Housing)
+EnrollmentID: 700109
 HouseholdID: 800103
-EnrollmentID: 
 AssessmentID: 
 IncomeBenefitsID: 
 ExitID: 
