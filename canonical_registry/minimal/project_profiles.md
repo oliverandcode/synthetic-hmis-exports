@@ -14,6 +14,10 @@ HMISParticipationStatusEndDate: null (ongoing)
 
 CEParticipationStatusStartDate: 2024-01-01
 
+InventoryStartDate: 2024-01-01 
+* only applicable to Harbor House, Pathways, and Summit
+
+
 ## Harbor House Emergency Shelter 
 
 Documentation Label: Harbor House
@@ -29,9 +33,15 @@ AccessPoint: 1 (yes: entry point for CES)
     - HousingAssessment: 1 (yes)
     - DirectServices: 1 (yes)
 ReceivesReferrals: 1 (yes: CES refers clients here)
+HouseholdType: 1 (no children)
+UnitInventory: 15
+BedInventory 20
+Availability: 1 (year-round)
+ESBedType: 1 (facility-based)
 
 ### Description
 Emergency shelter providing temporary housing and stabilization services.
+Entry/Exit shelter with defined stays and case management, not Night-By-Night. 
 
 ### Address
 123 Western Avenue
@@ -54,6 +64,9 @@ GrantID (fictional): CA0600L9D001234
 HMISParticipationID: 500102
 AccessPoint: 0 (no: not a CES entry point)
 ReceivesReferrals: 1 (yes: CES refers clients here)
+HouseholdType: 3 (at least one adult + one child)
+UnitInventory: 10
+BedInventory 10 (capacity to serve 10 households, not literal beds)
 
 ### Description
 Rapid Re-Housing program assisting participants in obtaining and maintaining
@@ -109,6 +122,9 @@ GrantID (fictional): CA0600L9D005678
 HMISParticipationID: 500104
 AccessPoint: 0 (no: not a CES entry point)
 ReceivesReferrals: 1 (yes: CES refers clients here)
+HouseholdType: 1 (no children)
+UnitInventory: 12
+BedInventory 12
 
 ### Description
 Permanent Supportive Housing program serving participants with long-term support

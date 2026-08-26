@@ -1,0 +1,4 @@
+InventoryID,ProjectID,CoCCode,HouseholdType,Availability,UnitInventory,BedInventory,CHVetBedInventory,YouthVetBedInventory,VetBedInventory,CHYouthBedInventory,YouthBedInventory,CHBedInventory,OtherBedInventory,ESBedType,InventoryStartDate,InventoryEndDate,DateCreated,DateUpdated,UserID,DateDeleted,ExportID
+"900101","200101","CA-600",1,1,15,20,,,,,,,,1,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"900102","200102","CA-600",3,,10,10,,,,,,,,,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"
+"900104","200104","CA-600",1,,12,12,,,,,,,,,2024-01-01,,2026-01-01 09:00:00,2026-01-01 09:00:00,"23",,"EXP20260715A"

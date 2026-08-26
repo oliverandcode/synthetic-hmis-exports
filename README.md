@@ -101,6 +101,22 @@ to explicitly signal that the records here do not represent real people.
           fictional export batch does not meet those conditions, so this CSV 
           is empty (except for the headers row).
 
+### V1.0.4: Expand Minimal Dataset
+- Documentation of fictional profiles
+- Canonical registry of fictional data
+- Minimal synthetic export batch phase 5: *Enrollment & Inventory*
+    - [...previously generated CSVs]
+    - NOTE: Upstream requirements include ProjectID and UserID for BOTH of the 
+      new CSVs.
+    - **NEW:** Enrollment.csv
+        - Upstream requirements: 
+            - PersonalID
+            - EnrollmentCoC from ProjectCoC.csv
+    - **NEW:** Inventory.csv
+        - NOTE: Only applies to Harbor House, Pathways, and Summit
+        - Upstream requirements: 
+            - CoCCode from ProjectCoC.csv
+
 ## Project Structure
 
 synthetic-hmis-exports/
@@ -112,12 +128,14 @@ synthetic-hmis-exports/
 │           ├── User.csv
 │           ├── Project.csv
 │           ├── Client.csv
-│           ├── CustomClientGender.csv **NEW:**
-│           ├── ProjectCoC.csv **NEW:**
-│           ├── Funder.csv **NEW:**
-│           ├── HMISParticipation.csv **NEW:**
-│           ├── CEParticipation.csv **NEW:**
-│           └── Affiliation.csv **NEW:**
+│           ├── CustomClientGender.csv
+│           ├── ProjectCoC.csv
+│           ├── Funder.csv
+│           ├── HMISParticipation.csv
+│           ├── CEParticipation.csv
+│           ├── Affiliation.csv
+│           ├── Enrollment.csv **NEW:**
+│           └── Inventory.csv **NEW:**
 ├── canonical_registry/
 │       └──minimal/
 │           ├── canonical_entities.csv
