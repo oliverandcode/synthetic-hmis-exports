@@ -1,12 +1,10 @@
 # Fictional HMIS Participant Profiles
 
 ## Global
-Leaving the following fields null for this minimal data round:
-- LengthOfStay
-- PreviousStreetESSH
-- TimesHomelessPastThreeYears
-- MonthsHomelessPastThreeYears
-- DateToStreetESSH
+EnrollmentCoC: CA-600
+
+Leaving the majority of Enrollment.csv fields (from RentalSubsidyType to MentalHealthConsultation) null for this minimal data round, except for DisablingCondition, DateOfEngagement, and MoveInDate, where applicable. Most of
+these fields are simply not applicable due to the project types.
 
 ## Kelly Clarkson 
 
@@ -100,6 +98,10 @@ MoveInDate: TBD once he's housed
 Head of household entering a Rapid Re-Housing project. Represents a household
 with multiple members (4 children) and several income-related records.
 
+Has a family history of substance abuse in his family, and has struggled with 
+addiction himself. Has been in substance abuse treatment programs in the past. 
+Currently attending NA and maintaining sobriety successfully. 
+
 ### Expected related records
 PersonalID: 100003
 ProjectID: 200102 (Pathways Rapid Re-Housing)
@@ -130,8 +132,8 @@ DateOfEngagement: 2026-04-20
 MoveInDate: --
 
 ### Description
-Youth participant receiving Street Outreach services. Assessment and outreach
-records are present without residential placement during this export.
+Runaway youth participant receiving Street Outreach services. Assessment and 
+outreach records are present without residential placement during this export.
 
 ### Expected related records
 PersonalID: 100004
